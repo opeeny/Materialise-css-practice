@@ -1,0 +1,272 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Materialize</title>
+    <style>
+        .box {
+            height: 200px;
+        }
+        .depth {
+            width: 10px;
+            height: 10px;
+            background-color: blue;
+        }
+        nav .badge {
+            position: relative;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav class="nav wrapper indigo">
+            
+            <div class="container">
+                <div class="brand-logo">OPM</div>
+                <a href="#" class="sidenav-trigger" data-target = 'mobile-links'>
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                   <li>
+                    <a href="#" class="btn-floating pink pulse darken-2 z-depth-2">
+                     <i class="material-icons">notifications</i>
+                    </a>
+                 </li>
+                   <li><span class="badge white-text pink new">5</span></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id = 'mobile-links'>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h2>Hey, funds</h2>
+        <p class = "hide blues darken-4">Hide me on all small screen sizes</p>
+        <p class = "hide-on-small-only blue white-text">Hide me on small screen sizes</p>
+        <p class = "hide-on-med-only orange  orange darken-3" >Your Medium</p>
+        <p class = "hide-on-large-only">Your Large screens</p>
+        <p class = "hide-on-med-and-down">Hide me on medium and small screens size</p>
+        <p class = "hide-on-med-and-up purple teal darken-2 yellow-text-lighten-3">Hide me on medium & Large screens only</p>
+        <p class="center-align">Center alignment</p>
+        <p class="left-align">Left align</p>
+        <p class="right-align">Right align</p>
+        <h2>Buttons</h2>
+        <button class="btn waves-effect waves-light">Normal Button</button>
+        <button class="btn-small ">small Button</button>
+        <button class="btn-large indigo">Large Button</button>
+        <button class="btn disabled">Disabled</button>
+        <h5 class="">Floating Button</h5>
+        <a class="btn pink pulse" href="#"></a>
+        <a class="btn-floating indigo pulse" href="#"></a>
+        <div class="btn waves-effect ">I a, a Div, but i look a lot like a button</div>
+        <h5 class="">Icons</h5>
+        <i class="material-icons red-text">error</i>
+        <i class="material-icons yellow-text darken-2">warning</i>
+        <i class="material-icons green-text">autorenew</i>
+        <i class="material-icons green-text">cloud</i>
+        <h5 class="">Icons on buttons</h5>
+        <a href="#" class="btn orange">
+            <span>send</span>
+            <i class="material-icons right">send</i>
+        </a>
+        <a href="#" class="btn pink">
+            <span>Email</span>
+            <i class="material-icons left">email</i>
+        </a>
+        <h5 class="">Floating-icons</h5>
+        <a href="#" class="btn-floating indigo pulse">
+            <i class="material-icons yellow-text">add</i>
+        </a>
+        <a href="#" class="btn-floating red pulse">
+            <i class="material-icons">remove</i>
+        </a>
+        <a href="#" class="btn-floating blue pulse">
+            <i class="material-icons">edit</i>
+        </a>
+        <hr>
+        <h5>Cards</h5>
+        <div class="row">
+            <div class="col s12 m4 16">
+                <div id = 'ulx' class="card">
+                    <div class="card-image">
+                        <img src="log.jpg" class="" alt="Log">
+                        <a href="#" class="halfway-fab btn-floating pink pulse center"> 
+                            <i class="material-icons">favorite</i>
+                        </a>  
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">
+                            Find work Africa scholar
+                        </span>
+                        <p>I'm a mobile web software developer with interests in a data-science</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="">Kampala</a>
+                        <a href="#" class="">Entebbe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 16">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="log.jpg" class="" alt="Log">
+                        <a href="#" class="halfway-fab btn-floating pink pulse center"> 
+                            <i class="material-icons">favorite</i>
+                        </a>  
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">
+                            Marketier scholar
+                        </span>
+                        <p>I'm a mobile web software developer with interests in a data-science</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="">Kampala</a>
+                        <a href="#" class="">Entebbe</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="col s12 m4 16">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="log.jpg" class="" alt="Log">
+                        <a href="#" class="halfway-fab btn-floating pink pulse center"> 
+                            <i class="material-icons">favorite</i>
+                        </a>  
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">
+                            Shop Africa scholar
+                        </span>
+                        <p>I'm a mobile web software developer with interests in a data-science</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="">Kampala</a>
+                        <a href="#" class="">Entebbe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="row">
+            <h5 class="">4 column Grid</h5>
+            <div class="col s3 red">1</div>
+            <div class="col s3 orange">2</div>
+            <div class="col s3 pink">3</div>
+            <div class="col s3 indigo">3</div>
+            <h5 class="">Different Large  Grid</h5>
+            <div class="col s6 red">1</div>
+            <div class="col s2 orange">2</div>
+            <div class="col s2 pink">3</div>
+            <div class="col s2 indigo">3</div>
+        </div>
+            <div class="row">
+                <h5 class="">Double Grid</h5>
+                <div class="col s6 m3 red">1</div>
+                <div class="col s6 m3 orange">2</div>
+                <div class="col s6 m3 pink">3</div>
+                <div class="col s6 m3 indigo">3</div>
+            </div>
+            <div class="row">
+                <h5 class="">12 Grid</h5>
+                <div class="col s12 m6 l4 red divider">content</div>
+                <div class="col s12 m6 l4 orange divider">content</div>
+                <div class="col s12 m6 l4 pink divider">content</div>
+                <div class="col s12 m6 l4 indigo divider">content</div>
+                <div class="col s12 m6 l4 pink divider">content</div>
+                <div class="col s12 m6 l4 indigo divider">content</div>
+            </div>
+            <div class="row">
+                <h5 class="">Depth & Shadows</h5>
+                <div></div>
+                <div class="col s2 depth">
+                    <div class="z-depth-1"></div>
+                </div>
+                <div class="col s2 depth">
+                    <div class="z-depth-1"></div>
+                </div>
+                <div class="col s2 depth">
+                    <div class="z-depth-1"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+       <div class="container">
+        <!--  new -->
+        <div id = 'ul' class="row">
+            <h4 class="">Collection</h4>
+            <ul class="collection with-header">
+                <li class="collection-header"><h5>Collect</h5></li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Roy</span>
+                    <p class="grey-text">Black</p>
+                    <a href="" class="secndary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Tomy</span>
+                    <p class="grey-text">Black</p>
+                    <a href="" class="secndary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Fred</span>
+                    <p class="grey-text">yellow</p>
+                    <a href="" class="secndary-content">
+                    <i class="material-icons blue-text">email</i>
+                </a>
+                </li>
+                <li class="collection-item">Ken</li>
+                <li class="collection-item">Fred</li>
+            </ul>
+        </div>
+
+       </div>
+       
+       <div class="container">
+        <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+        <div id = "terms" class="modal">
+       <div class="modal-content">
+           <h4>Terms & condtions</h4>
+           <p>I am a mobile web software developer with interests in a data-science</p>
+       </div>
+       <div class="modal-footer">
+           <a href="#" class="modal-close btn orange">Agree & close</a>
+       </div>
+        </div>
+       </div>
+    <div class="container grey lighten-2 box valign-wrapper">
+       
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        })
+        $(document).ready(function() {
+            $('#terms').modal();
+        })
+    </script>
+</body>
+
+</html>
